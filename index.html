@@ -18,7 +18,7 @@ body{margin:0}
 img{max-width:100%;display:block}
 .variant[hidden]{display:none!important}
 
-.mock-note{background:#fff3d6;color:#5a3d00;font:14px/1.45 'Segoe UI',Arial,sans-serif;padding:8px 20px;text-align:center}
+.mock-note{background:#fff3d6;color:#5a3d00;font:15px/1.5 'Segoe UI',Arial,sans-serif;padding:8px 20px;text-align:center}
 .mock-note .chk{border-bottom:2px dashed #c27a00}
 
 .chk{text-decoration:underline dashed #e0931f 2px;text-underline-offset:4px;cursor:help}
@@ -61,14 +61,14 @@ img{max-width:100%;display:block}
 #va .btn:focus-visible,#va a:focus-visible{outline:3px solid var(--cta);outline-offset:2px}
 #va section{padding-block:56px}
 
-#va .topbar{background:var(--surface);border-bottom:1px solid var(--line);font-size:15px}
+#va .topbar{background:var(--surface);border-bottom:1px solid var(--line);font-size:14px}
 #va .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:10px 16px;flex-wrap:wrap;padding-block:8px}
 #va .phones{display:flex;gap:6px 18px;flex-wrap:wrap;align-items:center;font-weight:700}
 #va .phones a{color:var(--fg)}
 #va .msgr{display:flex;gap:8px}
 #va .msgr a{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:13px;font-weight:700;color:#fff}
 #va .msgr .tg{background:#2a9fd8}
-#va .msgr .wa{background:#25a35a}
+#va .msgr .vk{background:#0077ff}
 #va .msgr svg{width:14px;height:14px;fill:currentColor}
 #va .toplinks{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
 #va .svedenia{font-weight:700;border:1px solid var(--brand);padding:4px 10px;border-radius:6px}
@@ -336,7 +336,7 @@ img{max-width:100%;display:block}
 </head>
 <body>
 
-<div class="mock-note">Макет новой главной russian-school.ru · <span class="chk">пунктиром</span> отмечено то, что нужно подтвердить у школы (цифры, цены, ФИО)</div>
+<div class="mock-note"><b>Это макет новой главной страницы.</b> <span class="chk">Пунктиром</span> отмечено то, что нужно подтвердить или прислать: цифры, цены, ФИО и фото педагогов. Наведите курсор на такой элемент — появится подсказка.</div>
 
 <div class="switcher" role="group" aria-label="Вариант дизайна">
   <span>Дизайн:</span>
@@ -353,12 +353,12 @@ img{max-width:100%;display:block}
     <a href="tel:+74955412348">+7 (495) 541-23-48</a>
     <span class="msgr">
       <a class="tg" href="https://t.me/ruschool_moscow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.9 4.3 18.7 19.5c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.3 1.8 11.8c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg>Telegram</a>
-      <a class="wa chk" title="Уточнить, есть ли WhatsApp на этом номере" href="https://wa.me/79100847200"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.3.7-.2l2 1c.3.1.5.2.5.3.1.2.1.8-.2 1.5z"/></svg>WhatsApp</a>
+      <a class="vk" href="https://vk.com/ru_school"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.8 17.5c-5.6 0-8.8-3.9-9-10.3h2.8c.1 4.7 2.2 6.7 3.8 7.1V7.2h2.7v4.1c1.6-.2 3.2-2 3.8-4.1h2.6c-.4 2.5-2.3 4.3-3.6 5.1 1.3.6 3.4 2.2 4.2 5.2h-2.9c-.6-2-2.2-3.5-4.1-3.7v3.7z"/></svg>ВКонтакте</a>
     </span>
   </div>
   <div class="toplinks">
     <a class="svedenia" href="https://russian-school.ru/sveden/">Сведения об образовательной организации</a>
-    <a href="https://russian-school.ru/?template=accessibility">Версия для слабовидящих</a>
+    <a href="https://russian-school.ru/?template=accessibility">Для слабовидящих</a>
   </div>
 </div></div>
 
@@ -382,9 +382,9 @@ img{max-width:100%;display:block}
     <p>Классы до 20 человек, полупансион до 17:00, подготовка к ЕГЭ и поступлению в вузы. Московский аттестат государственного образца.</p>
     <div class="actions"><a class="btn btn-cta" href="#a-zapis">Записаться на экскурсию</a><a class="btn btn-ghost" href="#a-price">Стоимость и поступление</a></div>
     <div class="facts">
-      <div><b class="chk" title="На текущем сайте — «более 25 лет». Уточнить точную цифру">25+</b><span>лет в образовании</span></div>
+      <div><b class="chk" title="На сайте сейчас «более 25 лет». Подтвердите точную цифру">25+</b><span>лет в образовании</span></div>
       <div><b>до 20</b><span>учеников в классе</span></div>
-      <div><b class="chk" title="Нужно подтверждение школы (закон о рекламе)">100%</b><span>выпускников поступают в вузы</span></div>
+      <div><b class="chk" title="Подтвердите, пожалуйста: такие цифры по закону о рекламе должны подтверждаться">100%</b><span>выпускников поступают в вузы</span></div>
       <div><b>3</b><span>горячих приёма пищи</span></div>
     </div>
   </div>
@@ -470,7 +470,7 @@ img{max-width:100%;display:block}
   <div>
     <div class="eyebrow">Отзывы</div>
     <h2>Что говорят родители</h2>
-    <a class="rating chk" title="Подставить реальный рейтинг с Яндекс Карт" href="https://yandex.ru/maps/"><b>4,9</b><span class="stars" aria-hidden="true">★★★★★</span><span>Яндекс Карты · 120 отзывов</span></a>
+    <a class="rating chk" title="Здесь будет ваш реальный рейтинг с Яндекс Карт" href="https://yandex.ru/maps/"><b>4,9</b><span class="stars" aria-hidden="true">★★★★★</span><span>Яндекс Карты · 120 отзывов</span></a>
     <blockquote>Замечательные учителя дают хорошие знания по всем предметам и очень внимательны к ребёнку.<footer>Чернявская В. Ф.</footer></blockquote>
     <blockquote>Мой ребёнок идёт в сад как на праздник, она искренне любит своих воспитателей.<footer>Следина Е. В., родитель воспитанницы «Колокольчика»</footer></blockquote>
     <blockquote>Наша школа запомнится мне необыкновенно тёплой и дружеской атмосферой.<footer>Смагин Р., выпускник</footer></blockquote>
@@ -536,6 +536,7 @@ img{max-width:100%;display:block}
   </ul>
   <div class="head-r">
     <a class="icon-btn" href="https://t.me/ruschool_moscow" aria-label="Написать в Telegram"><svg viewBox="0 0 24 24"><path d="M21.9 4.3 18.7 19.5c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.3 1.8 11.8c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg></a>
+    <a class="icon-btn" href="https://vk.com/ru_school" aria-label="ВКонтакте"><svg viewBox="0 0 24 24"><path d="M12.8 17.5c-5.6 0-8.8-3.9-9-10.3h2.8c.1 4.7 2.2 6.7 3.8 7.1V7.2h2.7v4.1c1.6-.2 3.2-2 3.8-4.1h2.6c-.4 2.5-2.3 4.3-3.6 5.1 1.3.6 3.4 2.2 4.2 5.2h-2.9c-.6-2-2.2-3.5-4.1-3.7v3.7z"/></svg></a>
     <a class="tel" href="tel:+79100847200">+7 (910) 084-72-00</a>
     <button class="burger" type="button" aria-expanded="false">Меню</button>
   </div>
@@ -543,7 +544,7 @@ img{max-width:100%;display:block}
 
 <section class="hero"><div class="wrap">
   <div>
-    <div class="kicker"><span><span class="chk" title="Уточнить у школы, как она себя позиционирует (на сайте есть раздел о храме)">Частная православная школа</span> · с 1 по 11 класс</span></div>
+    <div class="kicker"><span><span class="chk" title="Подходит ли такая формулировка для школы?">Частная православная школа</span> · с 1 по 11 класс</span></div>
     <h1>Здесь каждого ребёнка <em>знают по имени</em></h1>
     <p class="lede">Небольшие классы, тёплая атмосфера и сильная программа. Ребёнок проводит в школе целый день — учится, обедает, занимается в кружках — и возвращается домой с выполненными уроками.</p>
     <div class="actions">
@@ -558,8 +559,8 @@ img{max-width:100%;display:block}
 </div>
 <div class="wrap">
   <div class="numbers">
-    <div><b class="chk" title="На сайте — «более 25 лет». Уточнить">25+</b><span>лет школе</span></div>
-    <div><b class="chk" title="Нужно подтверждение школы">100%</b><span>выпускников поступают в вузы</span></div>
+    <div><b class="chk" title="На сайте сейчас «более 25 лет». Подтвердите точную цифру">25+</b><span>лет школе</span></div>
+    <div><b class="chk" title="Подтвердите, пожалуйста: такие цифры по закону о рекламе должны подтверждаться">100%</b><span>выпускников поступают в вузы</span></div>
     <div><b>17:00</b><span>полупансион с уроками и кружками</span></div>
     <div><b>13</b><span>кружков и секций в программе</span></div>
   </div>
@@ -591,7 +592,7 @@ img{max-width:100%;display:block}
     </a>
     <a class="world" href="https://kolokolchik.russian-school.ru/">
       <img data-img="kinder" alt="Воспитанники детского сада «Колокольчик» на прогулке">
-      <div class="in"><span class="tag chk" title="Уточнить возраст приёма">от 3 лет</span><h3>«Колокольчик»</h3><p>Полный день или кратковременное пребывание. Психолог, логопед и все кружки включены в стоимость. Пятиразовое домашнее питание.</p><span class="go">Детский сад →</span></div>
+      <div class="in"><span class="tag chk" title="С какого возраста принимаете в детский сад?">от 3 лет</span><h3>«Колокольчик»</h3><p>Полный день или кратковременное пребывание. Психолог, логопед и все кружки включены в стоимость. Пятиразовое домашнее питание.</p><span class="go">Детский сад →</span></div>
     </a>
   </div>
 </div></section>
@@ -601,7 +602,7 @@ img{max-width:100%;display:block}
     <div class="kicker">Голос родителей</div>
     <p class="bigq">Замечательные учителя дают хорошие знания по всем предметам и очень внимательны к ребёнку.</p>
     <p class="who">Чернявская В. Ф., родитель</p>
-    <div class="more"><a class="lnk" href="https://russian-school.ru/glavnaya/otzyvy-o-shkole">Все отзывы →</a><span class="chk" title="Подставить реальный рейтинг">★ 4,9 на Яндекс Картах</span></div>
+    <div class="more"><a class="lnk" href="https://russian-school.ru/glavnaya/otzyvy-o-shkole">Все отзывы →</a><span class="chk" title="Здесь будет ваш реальный рейтинг с Яндекс Карт">★ 4,9 на Яндекс Картах</span></div>
   </div>
   <div class="minis">
     <div class="mini">Мой ребёнок идёт в сад как на праздник, она искренне любит своих воспитателей.<cite>Следина Е. В., «Колокольчик»</cite></div>
@@ -697,6 +698,11 @@ document.querySelectorAll('img[data-img]').forEach(function(el){
   if (start !== 'a' && start !== 'b') { try { start = localStorage.getItem('rs-variant'); } catch(e) {} }
   if (start === 'a' || start === 'b') show(start, false);
 })();
+
+/* Подсказка по умолчанию для пунктирных элементов */
+document.querySelectorAll('.chk:not([title])').forEach(function(el){
+  if (!el.closest('.mock-note')) el.title = 'Подтвердите или пришлите актуальные данные';
+});
 
 /* Мобильное меню варианта Б */
 document.querySelector('#vb .burger').addEventListener('click', function(){
